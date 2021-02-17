@@ -1,0 +1,41 @@
+.login {
+  background-color: #fff;
+  height: 70vh;
+}
+
+.login-form {
+  width: 400px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.input-control label {
+  font-size: 20px;
+}
+.input-control input {
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.error-msg {
+  font-size: 18px;
+  color: red;
+}
